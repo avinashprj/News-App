@@ -19,7 +19,6 @@ const HomeScreen = ({ navigation }) => {
     news: articles,
     authUser,
   } = useSelector((state) => state.news);
-  console.log(darkTheme);
 
   const dispatch = useDispatch();
 

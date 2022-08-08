@@ -10,7 +10,6 @@ export const getNews = createAsyncThunk(
   async (_, { rejectWithValue }) => {
     try {
       const URL = getNewsAPI();
-
       const response = await axios.get(URL);
       return response.data.articles;
     } catch (error) {

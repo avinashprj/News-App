@@ -25,7 +25,6 @@ export default function App() {
           <Stack.Screen name="Details" component={NewsScreen} />
         </Stack.Navigator>
       </NavigationContainer>
-      {/* <NewsScreen /> */}
     </Provider>
   );
 }
